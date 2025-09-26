@@ -8,11 +8,11 @@ public:
         vector<int>ans;
         // string s1 ="";
         // string s2 = "";
-        if(s.size()<p.size())return ans;
+        if(s.size()<p.size())return ans;//Special Sentence
         for(int i=0;i<p.size();i++)
         {
             a[p[i]-'a']++;
-            b[s[i]-'a']++;
+            b[s[i]-'a']++;//init array
         }
 
         for(int i=p.size();i<s.size();i++)
@@ -30,7 +30,7 @@ public:
             b[s[i]-'a']++;
         }
         bool flag = 1;
-        for(int j=0;j<26;j++){
+        for(int j=0;j<26;j++){//The last paragraph requires separate consideration.
             if(a[j]!=b[j]){
                 flag = 0;
                 break;
@@ -41,3 +41,5 @@ public:
 
     }
 };
+//Contains only lowercase letters, totaling 26 characters. A 26-digit number can be used to maintain this.
+
