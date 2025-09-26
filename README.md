@@ -4,8 +4,8 @@
 
 # Repository Features
 
-- **Comprehensive Coverage**: Includes complete solutions for all 100 official LeetCode Hot Topics(will)
-- **Multi-Language Implementation**: Primarily provides  C++ implementation codes
+
+- **c++-Language Implementation**: Primarily provides  C++ implementation codes
 - **Clear Explanations**: Each problem features concise and straightforward solution explanations
 - **Optimal Solution Focus**: Prioritizes solutions with better time and space complexity
 - **Continuous Updates**: Regularly maintained alongside LeetCode's Hot Topics list updates
