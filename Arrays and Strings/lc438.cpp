@@ -1,5 +1,5 @@
-#LeetCode 438 https://leetcode.cn/problems/find-all-anagrams-in-a-string/
-```c++
+//LeetCode 438 https://leetcode.cn/problems/find-all-anagrams-in-a-string/
+
 class Solution {
 public:
     vector<int> findAnagrams(string s, string p) {
@@ -42,4 +42,4 @@ public:
     }
 };
 //Contains only lowercase letters, totaling 26 characters. A 26-digit number can be used to maintain this.
-```c++
+
