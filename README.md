@@ -1,5 +1,5 @@
 # LeetCode_train_hot100
-LeetCode_train_hot100
+
 **This repository contains detailed solution code and problem analysis for 100 popular LeetCode problems, designed to help developers efficiently master high-frequency algorithmic questions and enhance coding and problem-solving skills.**
 # Repository Features
 
